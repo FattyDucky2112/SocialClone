@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'accounts'
+    'accounts',
+    #pip install django-bootstrap3 => makes forms look nicer
+    'bootstrap3',
 ]
 
 MIDDLEWARE = [
