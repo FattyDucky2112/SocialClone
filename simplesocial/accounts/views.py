@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.urls import reverse_lazy
-from . import froms
+from . import forms
 from django.views.generic import CreateView
 
 class SignUp(CreateView):
